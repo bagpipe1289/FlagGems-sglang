@@ -347,7 +347,4 @@ def sigmoid_gate_topk_renorm(
     return routed_w, indices, shared_w
 
 
-reference = sigmoid_gate_topk_renorm
-
-
 __all__ = ["sigmoid_gate_topk_renorm"]
